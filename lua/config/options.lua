@@ -13,3 +13,4 @@ vim.opt.tabstop = 4
 
 -- Set minimum window width to something reasonable
 vim.opt.winwidth = 100
+

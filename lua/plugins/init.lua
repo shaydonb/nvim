@@ -1,6 +1,7 @@
 -- Actual configs included.
 if true then
   return {
+    -- Include rustaceanvim
     {
       "mrcjkb/rustaceanvim",
       version = "^5", -- Recommended
@@ -8,6 +9,20 @@ if true then
       ["rust-analyzer"] = {
         cargo = {
           allFeatures = true,
+        },
+      },
+    },
+
+    -- Include Diffview
+    -- https://github.com/sindrets/diffview.nvim
+    {
+      'sindrets/diffview.nvim',
+      -- Set file panel window width to 100 (default 35)
+      opts = {
+        file_panel = {
+          win_config = {
+            width = 100,
+          },
         },
       },
     },
