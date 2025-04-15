@@ -14,3 +14,5 @@ vim.opt.tabstop = 4
 -- Set minimum window width to something reasonable
 vim.opt.winwidth = 100
 
+-- Disable all animations (unnecessary bloat)
+vim.g.snacks_animate = false
