@@ -1,7 +1,14 @@
 # 💤 LazyVim
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+My fork of the starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to start fresh.
+
+## Quick Reference
+
+- When completely unsure on how to do something, reference the help manual:
+    - `:help`
+- When having issues, checking the health of `nvim` is best:
+    - `:checkhealth`
 
 ## TODOs
 
