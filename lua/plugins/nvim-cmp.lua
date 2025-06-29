@@ -5,7 +5,7 @@ return {
     local cmp = require("cmp")
     opts.mapping = cmp.mapping({
       -- Prevent enter from being anything besides newline/carriage return.
-      -- ["<CR>"] = cmp.config.disable,
+      ["<CR>"] = cmp.config.disable,
       ["<C-p>"] = cmp.mapping.select_prev_item(),
       ["<C-n>"] = cmp.mapping.select_next_item(),
       ["<C-e>"] = cmp.mapping.abort(),
