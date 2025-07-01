@@ -16,7 +16,7 @@ if true then
     -- Include Diffview
     -- https://github.com/sindrets/diffview.nvim
     {
-      'sindrets/diffview.nvim',
+      "sindrets/diffview.nvim",
       -- Set file panel window width to 100 (default 35)
       opts = {
         file_panel = {
@@ -160,9 +160,11 @@ return {
         "lua",
         "markdown",
         "markdown_inline",
+        "ninja",
         "python",
         "query",
         "regex",
+        "rst",
         "tsx",
         "typescript",
         "vim",
