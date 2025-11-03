@@ -16,12 +16,30 @@ if true then
     -- Include Diffview
     -- https://github.com/sindrets/diffview.nvim
     {
-      'sindrets/diffview.nvim',
+      "sindrets/diffview.nvim",
       -- Set file panel window width to 100 (default 35)
       opts = {
         file_panel = {
           win_config = {
             width = 100,
+          },
+        },
+      },
+    },
+
+    -- basedpyright, note that it should already be installed
+    {
+      "neovim/nvim-lspconfig",
+      opts = {
+        servers = {
+          basedpyright = {
+            settings = {
+              basedpyright = {
+                analysis = {
+                  typeCheckingMode = "standard",
+                },
+              },
+            },
           },
         },
       },
